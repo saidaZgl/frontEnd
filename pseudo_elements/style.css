@@ -22,3 +22,7 @@ p::after {
     height: 5px;
     background: #eb4d4b;
 }
+
+.txt::selection {
+    background: rgba(255, 121, 121,0.3);
+}
