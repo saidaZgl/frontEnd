@@ -1,0 +1,33 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background: #f1f1f1;
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 10PX;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 19px;
+}
