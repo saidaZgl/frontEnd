@@ -3,6 +3,11 @@ h1::first-letter {
     font-size: 150px;
 }
 
-p::first-line {
+h1::first-line {
     font-style: italic;
+}
+
+p::before {
+    content: 'Je rajoute du contenu';
+    color: green;
 }
