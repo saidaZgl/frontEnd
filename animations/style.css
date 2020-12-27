@@ -20,16 +20,16 @@
 }
 /* Animation lors d'un état */
 @keyframes spin {
-    0% {
+    from {
         transform: rotate(0deg);
     }
-    50% {
+    /* 50% {
         background: #00a8ff;
     }
     51.5% {
         background: #7bed9f;
-    }
-    100% {
+    } */
+    to {
         transform: rotate(720deg);
         background: #ff4757;
     }
