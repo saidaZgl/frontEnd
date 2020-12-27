@@ -1,0 +1,22 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background: salmon;
+    animation: spin 2s;
+}
+/* Animation lors du chargement de la page */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(720deg);
+    }
+}
