@@ -9,9 +9,8 @@
     height: 300px;
     margin: 20px;
     background: salmon;
-    animation: spin 2s;
 }
-/* Animation lors du chargement de la page */
+/* Animation lors d'un état */
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -19,4 +18,8 @@
     100% {
         transform: rotate(720deg);
     }
+}
+
+.box:hover {
+    animation: spin 2s;
 }
