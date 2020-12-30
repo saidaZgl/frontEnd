@@ -10,7 +10,7 @@
     height: 300px;
     margin: 20px;
     background: salmon;
-    transition: transform 3000ms cubic-bezier(0.92,-0.29, 0.58, 1);
+    transition: transform 1000ms ease-in-out 1s;
     /*
     property
     duration
