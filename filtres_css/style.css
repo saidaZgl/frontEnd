@@ -13,5 +13,6 @@ img {
     /* filter: blur(2px); */
     /* filter: contrast(250%); */
     /* filter: grayscale(100%); */
-    filter: invert(100%);
+    /* filter: invert(100%); */
+    filter: opacity(50%);
 }
