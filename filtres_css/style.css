@@ -16,5 +16,6 @@ img {
     /* filter: invert(100%); */
     /* filter: opacity(50%); */
     /* filter: saturate(200%); */
-    filter: sepia(70%)
+    /* filter: sepia(70%); */
+    filter: hue-rotate(50deg);
 }
