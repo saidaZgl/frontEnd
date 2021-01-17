@@ -7,5 +7,6 @@
 body {
     background: #f1f1f1;
     height: 100vh;
-    background: linear-gradient(45deg, #FDB99B, #CD8BF3);
+    /* background: linear-gradient(45deg, #FDB99B, #CD8BF3); */
+    background: radial-gradient(#FDB99B, #CD8BF3);
 }
