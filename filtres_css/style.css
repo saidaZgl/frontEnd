@@ -1,0 +1,14 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f1f1f1;
+    height: 100vh;
+}
+
+img {
+    filter: blur(2px);
+}
