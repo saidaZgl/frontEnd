@@ -14,5 +14,6 @@ img {
     /* filter: contrast(250%); */
     /* filter: grayscale(100%); */
     /* filter: invert(100%); */
-    filter: opacity(50%);
+    /* filter: opacity(50%); */
+    filter: saturate(200%);
 }
