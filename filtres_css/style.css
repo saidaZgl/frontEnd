@@ -10,5 +10,6 @@ body {
 }
 
 img {
-    filter: blur(2px);
+    /* filter: blur(2px); */
+    filter: contrast(250%);
 }
