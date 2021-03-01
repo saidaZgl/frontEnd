@@ -1,0 +1,108 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Maquette A */
+
+.containerA {
+    width: 800px;
+    height: 500px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.itemA {
+    width: 150px;
+    height: 150px;
+    background: crimson;
+    margin: 5px;
+}
+
+.a2 {
+    flex-grow: 1;
+}
+
+/* Maquette B */
+
+.containerB {
+    width: 800px;
+    height: 500px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemB {
+    width: 380px;
+    height: 150px;
+    background:crimson;
+    margin: 5px;
+}
+
+.b3 {
+    width: 100%;
+}
+
+/* Maquette C */
+
+.containerC {
+    width: 800px;
+    height: 500px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemC {
+    width: 50%;
+    height: 60px;
+    background: crimson;
+    margin: 5px;
+}
+
+/* Maquette D */
+
+.containerD {
+    width: 800px;
+    height: 500px;
+    margin: 150px 0;
+    background: midnightblue;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.itemD {
+    width: 250px;
+    height: 250px;
+    background: crimson;
+}
+
+.d2 {
+    margin: auto;
+}
+
+.d3 {
+    margin-left: auto;
+    align-self: flex-end;
+}
